@@ -1,0 +1,29 @@
+<p>
+The advantage to embedding is that it's quick and easy. CodePen in specific is excellent for demos because you can show the code and the result.
+
+However, loading multiple embed scrips throughout your blog can slow it down significantly, and additionally you don't have much control as to how the code snippet looks and what colors it uses. CodePen is only for front end web development, and you wouldn't be able to embed code in PHP, Ruby, Python, and so on. For many, that might not matter, and for others it does. For both of these options, all you do is paste your code and find the "embed" button.
+</p>
+<h4 class="uppercase bolder">
+JavaScript Highlighting
+</h4>
+<p>
+The alternative option is using a JavaScript library to automatically highlight your code. There are two main options here - Highlight.js and Prism.js. Google Prettify is a third option.
+
+I'll focus on Prism.js here, as it's what I use for this site, but I've used all the above at some point and they're all very similar.
+
+On the Prism website, you can download the CSS and JS for Prism. They give you options on what languages and theme you plan to use, so you'll just check the relevant ones and get the download.
+
+All the Prism files are also available as a CDN, so if you don't wish to download anything, you can do it that way.
+
+For the sake of simplicity, I'm going to assume you don't need anything special, and will use the most basic CDN. Link to the CSS in your <head>:
+</p>
+<pre><code class="language-css">body {
+      font: 100% Helvetica, sans-serif;
+      color: #333;
+    }
+    .box {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+    }</code></pre>

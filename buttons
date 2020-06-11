@@ -1,0 +1,28 @@
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="I just bought a joined a class titled bla bla bla on code-a-lot go to www.code-a-lot.com to see more" data-url="http://www.code-a-lot.com" data-via="@code-a-lot" data-hashtags="#code-a-lot" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default"></div>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<a class="twitter-follow-button"   href="https://twitter.com/TwitterDev" data-show-screen-name="false" data-lang="ar"> Follow @TwitterDev</a>
+
+
+https://publish.twitter.com/?buttonType=FollowButton
